@@ -54,8 +54,8 @@ body {
 }
 
 .logo {
-  width: 9.6rem;
-  height: 9.6rem;
+  width: 90px;
+  height: 75px;
 }
 .main-nav {
   display: flex;
