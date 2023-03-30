@@ -32,7 +32,7 @@ h6 {
 
 footer {
     padding: 10px 0;
-    background-color: #033249;
+    background-color: hsl(170, 92%, 15%);
     color:#9d9d9d;
     bottom: 0;
     width: 100%;
@@ -55,10 +55,10 @@ footer {
 
   .header img{
     height: 75px;
-    width: 90px;
+    width: 110px;
   }
   .navbar-header{
-    background-color: #033249;
+    background-color: hsl(170, 92%, 15%);
 }
   
  
