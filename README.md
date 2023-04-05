@@ -1,4 +1,4 @@
-# College Compare
+# College Finder
 
 
 
@@ -25,6 +25,7 @@ This is done using HTML and CSS.
 ```
  root
    ├─ college-details
+   |  |- SATI.html
    │  ├─ BITS.html
    │  ├─ IIITH.html
    │  ├─ IITB.html
