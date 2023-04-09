@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="College Compare is a static website that helps students with the engineering process."
+      content="Campus Finder is a static website that helps students with the engineering process."
     />
     <script
       type="module"
@@ -17,14 +17,14 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script defer src="script.js"></script>
-    <link rel="icon" href="img/Logo.jpg" />
+    <link rel="icon" href="img/logo.jpg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="queries.css" />
-    <title>Home - College Compare</title>
+    <title>Home - Campus Finder</title>
   </head>
   <body>
     <header class="header">
@@ -193,38 +193,20 @@
               Cannot find the college you are looking for, just send us the
               details and we will get it done for you.
             </p>
-            <form class="cta-form" action="#">
+            <form class="cta-form" action="connect1.php" method="POST">
               <div>
                 <label for="full-name">College Name</label>
-                <input
-                  id="full-name"
-                  type="text"
-                  placeholder="SATI"
-                  required
-                />
+                <input type="college" class="form-control"  placeholder="College"  name="college" required>
               </div>
               <div>
                 <label for="email">Email address</label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="me@example.com"
-                  required
-                />
+                <input type="email" class="form-control"  placeholder="Email"  name="e-mail" required>
               </div>
               <div>
                 <label for="select-where">Where did you hear from us?</label>
-
-                <select id="select-where" required>
-                  <option value="">Please Choose on Option:</option>
-                  <option value="friends">Friends and family</option>
-                  <option value="youtube">Youtube Videos</option>
-                  <option value="podcast">Podcast</option>
-                  <option value="Facebook">Facebook</option>
-                  <option value="others">Others</option>
-                </select>
+                <input type="hear" class="form-control"  placeholder="Freinds/Youtube/Social Media"  name="hear" required>
               </div>
-              <button class="btn btn--form"><a href="Registration.html" class="herf">Sign up now</a></button>
+              <button class="btn btn--form">Submit</button>
             </form>
           </div>
           <div
@@ -327,7 +309,7 @@
       </div>
     </footer>
     <p class="copyright">
-      Copyright &copy; <span class="year">2023</span> by College Compare, Inc.
+      Copyright &copy; <span class="year">2023</span> by Campus Finder, Inc.
       All rights reserverd.
     </p>
   </body>
