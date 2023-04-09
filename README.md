@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Campus Finder
+=======
+# College Finder
+>>>>>>> da2f3c51122ac28747b0aa09516d11b2ea4d41af
 
 
 
@@ -25,6 +29,7 @@ This is done using HTML and CSS.
 ```
  root
    ├─ college-details
+   |  |- SATI.html
    │  ├─ BITS.html
    │  ├─ IIITH.html
    │  ├─ IITB.html
@@ -64,4 +69,8 @@ This is done using HTML and CSS.
    ├─ script.js
    ├─ style.css
 ```
+
+<<<<<<< HEAD
+=======
+
 
